@@ -1,0 +1,39 @@
+#demo{
+  background-color: rgb(194,227,197);
+}
+
+h1{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: transparent !important;
+  background-image: linear-gradient(to right , #D96690 ,#f52b9d , #fced21) !important;
+  background-clip: text !important;
+  -webkit-background-clip: text !important;
+  background-size: 1000% !important;
+  animation: changing 20s linear infinite !important;
+  -webkit-animation: changing 20s linear infinite !important;
+}
+
+@keyframes changing {
+  0%{
+    background-position: 0% 50%;
+  }
+  50%{
+    background-position: 100% 0%;
+  }
+  100%{
+    background-position: 0% 100%;
+  }
+  
+}
+
+.o-postive {
+  font-size: 48px;
+  position: absolute;
+  left: 22%;
+  bottom: 50%;
+}
+
+.tempFont{
+font-size: 72px;
+}
+
